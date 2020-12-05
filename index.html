@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Groot Speaks</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <div class="head-element">
+        <h1 class="top-head">Groot Speaks</h1>
+    </div>
+
+    <div id="back-banner">
+
+        <div class="box">
+            <textarea class="txt-area" placeholder="Type your text here to talk to groot." id="txt-input" cols="30"
+                rows="5"></textarea>
+        </div>
+
+        <br>
+        <div class="trans-late">
+            <button style="font-family:'Nerko One', cursive;" id="btn-translate">Groot Translate</button>
+        </div>
+
+        <br>
+        <div id="output-txt" style="font-size: x-large;">Translation will come below.</div>
+
+
+        <div class="container">
+            <div class="output-box" id="output"></div>
+        </div>
+
+    </div>
+    <script src="api.js" type="text/javascript"></script>
+
+    <footer id="footer">
+
+        <p id="about">About</p>
+
+        <p id="foot-text">Do you read Marvel Comics or have watched Gaurdians of Galaxy or Avenger Series? Then you
+            must know Groot. Type your English Text to be translated to Groot language.</p>
+
+        <p id="love-text">Made with &#10084;&#65039; by a Groot Fan.</p>
+
+    </footer>
+
+
+
 </body>
+
 </html>
