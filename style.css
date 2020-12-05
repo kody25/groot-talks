@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+:root {
+    --primary-color: #b32d00;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    font-family:'Nerko One', cursive;
+}
+
+/* Header Part */
+
+.head-element {
+    background-color: var(--primary-color);
+    border: none;
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: 16px;
+}
+
+#top-head {
+    padding: 2rem 0rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Input Field Box */
+
+div.box {
+    display: flex;
+    justify-content: center;
+}
+
+.txt-area {
+    width: 50%;
+    height: 20vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border: solid black;
+    align-items: center;
+    font-family: 'Nerko One', cursive;
+    font-size: x-large;
+
+}
+
+/* Translate Button */
+
+.trans-late {
+    text-align: center;
+
+}
+
+#btn-translate {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: black;
+    padding: 1rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    width: fit-content;
+    font-weight: bold;
+}
+
+/* Output will come here text */
+
+#output-txt {
+    padding: 2rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    color:   #004080;
+}
+
+/* Output text box */
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+div.output-box {
+    display: flex;
+    justify-content: center;
+    border: solid black;
+    height: 20vh;
+    width: 50%;
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    display: block;
+}
+
+#output {
+    background-color: white;
+}
+
+/* Footer Part */
+
+#footer {
+    background-color: var(--primary-color);
+    padding: 1rem 5rem;
+    text-align: center;
+    color: black;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+#about {
+    color: solid black;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#foot-text {
+    font-size: large;
+}
+
+#love-text {
+    font-size: medium;
+}
+
+
+#back-banner {
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2018/10/baby-groot-5k-2018-artwork_1539978750.jpg);
+    
+    background-size: cover;
+    width: auto;
+    height: auto;
+    
+}
